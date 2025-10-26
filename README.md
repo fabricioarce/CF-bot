@@ -2,6 +2,19 @@
 
 A bot of discord to get daily problems of Codeforces, and soon more functions.
 
+## 🎯 Available Full Commands
+
+| Command        | Description                  | Example                |
+|----------------|------------------------------|------------------------|
+| `!testdaily`   | Sends a daily test problem.   | `!testdaily`           |
+| `!problem`     | Sends a problem with a custom range. | `!problem 1000 1500` |
+| `!showrange`   | Shows the current problem range. | `!showrange`         |
+| `!setrange`    | Changes the problem range.    | `!setrange 800 1200`  |
+| `!setchannel`  | Sets the channel for problem posts. | `!setchannel #channel` |
+| `!showchannel` | Shows the currently configured channel. | `!showchannel` |
+| `!config`      | Displays the full configuration. | `!config`           |
+
+
 ## Key Features & Benefits
 
 *   **Daily Codeforces Problems:** Automatically posts daily Codeforces problems to a designated Discord channel.
