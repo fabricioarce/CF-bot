@@ -121,8 +121,8 @@ async def on_ready():
     scheduler.add_job(
         daily_problem_job,  # Task function
         'cron',            # Schedule type
-        hour=15,            # Run at 8 AM
-        minute=52           # At minute 0
+        hour=8,            # Run at 8 AM
+        minute=0           # At minute 0
     )
     scheduler.start()
     
