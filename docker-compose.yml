@@ -1,0 +1,7 @@
+services:
+  cf-bot:
+    build: .
+    container_name: cf-bot-container
+    env_file:
+      - .env
+    restart: unless-stopped

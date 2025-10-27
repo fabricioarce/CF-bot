@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Establece la variable de entorno para evitar buffering en logs
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
 
 # Comando por defecto para ejecutar el bot
-CMD ["python", "main.py"]
+CMD ["python", "src/main.py"]
